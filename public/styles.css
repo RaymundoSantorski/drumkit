@@ -21,6 +21,7 @@
     border-radius: 8px;
     border: 1px solid gray;
     padding: 6px;
+    transition: all 0.08s;
 }
 
 .playing{
