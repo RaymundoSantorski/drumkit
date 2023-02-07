@@ -1,5 +1,10 @@
 let keys = document.querySelectorAll('div.key');
 
+let removePlaying = (e) => {
+    if(e.propertyName !== 'border-bottom-color') return;
+    e.target.classList.remove('playing');
+}
+
 document.addEventListener('keydown', (e) => {
     let audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
     if(!audio) return;
@@ -10,7 +15,5 @@ document.addEventListener('keydown', (e) => {
 });
 
 keys.forEach(key => {
-    key.addEventListener('transitionend', (e) => {
-        console.log(e);
-    }); 
+    key.addEventListener('transitionend', removePlaying);
 });
