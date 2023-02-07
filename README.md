@@ -9,7 +9,7 @@
 ## Se planea incluir: 
 - [X] Reproducir sonido al presionar la tecla correspondiente
 - [X] Al intentar reproducir el sonido varias veces seguidas, se detendrá la reproducción anterior del mismo sonido, de modo que suene más natural
-- [ ] Estilos a las teclas virtuales en su estado inicial
-- [ ] Estilos a las teclas virtuales al presionarla en el teclado
-- [ ] Transiciones de un estado al otro
-- [ ] Quitar el estilo de tecla presionada al soltar el teclado
+- [X] Estilos a las teclas virtuales en su estado inicial
+- [X] Estilos a las teclas virtuales al presionarla en el teclado
+- [X] Transiciones de un estado al otro
+- [X] Quitar el estilo de tecla presionada al soltar el teclado
