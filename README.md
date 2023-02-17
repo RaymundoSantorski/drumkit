@@ -15,6 +15,8 @@
 - [X] Transiciones de un estado al otro
 - [X] Quitar el estilo de tecla presionada al soltar el teclado
 
+Puedes ver el resultado [aqui](https://raymundosantorski.github.io/drumkit/).
+
 ![Imagen muestra del resultado](./public/screenshot.png)
 
     Debido a que busco poner efectos con buena calidad en el sonido, por ahora estoy limitado a estos que pude descargar de forma gratuita, en el futuro se agregarán más.
